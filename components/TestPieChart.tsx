@@ -2,6 +2,8 @@
 
 import { Pie, PieChart, Sector, PieSectorDataItem, Tooltip, TooltipIndex } from 'recharts';
 import { RechartsDevtools } from '@recharts/devtools';
+import propertyType from '../data/propertyType.json';
+
 
 // #region Sample data
 const data = [
@@ -97,7 +99,7 @@ export default function CustomActiveShapePieChart({
     >
       <Pie
         activeShape={renderActiveShape}
-        data={data}
+        data={propertyType}
         cx="50%"
         cy="50%"
         innerRadius="60%"

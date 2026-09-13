@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Industrial",
+    "value": 0.067
+  },
+  {
+    "name": "Residential",
+    "value": 0.7
+  },
+  {
+    "name": "Commercial",
+    "value": 0.233
+  }
+]
