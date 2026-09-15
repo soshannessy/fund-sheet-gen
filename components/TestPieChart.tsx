@@ -4,14 +4,7 @@ import { Pie, PieChart, Sector, PieSectorDataItem, Tooltip, TooltipIndex } from 
 import { RechartsDevtools } from '@recharts/devtools';
 import propertyType from '../data/propertyType.json';
 
-
-// #region Sample data
-const data = [
-  { name: 'Group A', value: 400 },
-  { name: 'Group B', value: 300 },
-  { name: 'Group C', value: 100 },
-  { name: 'Group D', value: 200 },
-];
+const propertyTypeFilter = propertyType.filter(d => d.category === 'propertyType')
 
 // #endregion
 type ActiveShapeProps = PieSectorDataItem & {
@@ -99,7 +92,7 @@ export default function CustomActiveShapePieChart({
     >
       <Pie
         activeShape={renderActiveShape}
-        data={propertyType}
+        data={propertyTypeFilter}
         cx="50%"
         cy="50%"
         innerRadius="60%"

@@ -1,14 +1,147 @@
 [
   {
     "name": "Industrial",
-    "value": 0.067
+    "value": 0.067,
+    "category": "propertyType"
   },
   {
     "name": "Residential",
-    "value": 0.7
+    "value": 0.7,
+    "category": "propertyType"
   },
   {
     "name": "Commercial",
-    "value": 0.233
+    "value": 0.233,
+    "category": "propertyType"
+  },
+  {
+    "name": "Sydney",
+    "value": 0.217,
+    "category": "location"
+  },
+  {
+    "name": "Melbourne",
+    "value": 0.453,
+    "category": "location"
+  },
+  {
+    "name": "Adelaide",
+    "value": 0.093,
+    "category": "location"
+  },
+  {
+    "name": "Brisbane",
+    "value": 0.072,
+    "category": "location"
+  },
+  {
+    "name": "Regional QLD",
+    "value": 0.027,
+    "category": "location"
+  },
+  {
+    "name": "Regional VIC",
+    "value": 0.1,
+    "category": "location"
+  },
+  {
+    "name": "Regional SA",
+    "value": 0.038,
+    "category": "location"
+  },
+  {
+    "name": "Civil Construction",
+    "value": 0.274,
+    "category": "assetType"
+  },
+  {
+    "name": "Construction Built",
+    "value": 0.102,
+    "category": "assetType"
+  },
+  {
+    "name": "Land",
+    "value": 0.624,
+    "category": "assetType"
+  },
+  {
+    "name": "Borrower 1",
+    "value": 0.07,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 2",
+    "value": 0.027,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 3",
+    "value": 0.035,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 4",
+    "value": 0.032,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 5",
+    "value": 0.093,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 6",
+    "value": 0.072,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 7",
+    "value": 0,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 8",
+    "value": 0.176,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 9",
+    "value": 0.03,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 10",
+    "value": 0.04,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 11",
+    "value": 0.09,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 12",
+    "value": 0.03,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 13",
+    "value": 0.13,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 14",
+    "value": 0.07,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 15",
+    "value": 0.07,
+    "category": "borrowers"
+  },
+  {
+    "name": "Borrower 16",
+    "value": 0.04,
+    "category": "borrowers"
   }
 ]
